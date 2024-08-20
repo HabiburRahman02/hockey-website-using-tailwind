@@ -18,15 +18,67 @@
         body {
             font-family: "Manrope", sans-serif;
         }
+
+        .red-text {
+            color: #FF4240;
+        }
+
+        .red-bg {
+            background-color: #FF4240;
+        }
     </style>
 </head>
 
 <body>
-    <header>
+    <header class="max-w-6xl mx-auto">
+        <!-- navbar start  -->
+        <nav class="mb-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 font-semibold rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li class="hover:text-red-500"><a>Home</a></li>
+                            <li class="hover:text-red-500"><a>About</a></li>
+                            <li class="hover:text-red-500"><a>Blog</a></li>
+                            <li class="hover:text-red-500"><a>Pages</a></li>
+                            <li class="hover:text-red-500"><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="font-bold text-3xl">Hokey<span class="red-text">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-semibold">
+                        <li class="hover:text-red-500"><a>Home</a></li>
+                        <li class="hover:text-red-500"><a>About</a></li>
+                        <li class="hover:text-red-500"><a>Blog</a></li>
+                        <li class="hover:text-red-500"><a>Pages</a></li>
+                        <li class="hover:text-red-500"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex items-center gap-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button class=" red-bg font-bold text-white px-6 py-3 rounded-lg">Get Ticket</button>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end  -->
 
+        <!-- banner start -->
+        <div>
+            
+        </div>
+        <!-- banner end -->
     </header>
-    <main>
-        <h1 class="text-3xl">Hello</h1>
+    <main class="max-w-6xl mx-auto">
+
     </main>
     <footer>
 
